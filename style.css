@@ -246,8 +246,8 @@ body{
 	box-shadow: none;
 }
 .stoper{
-	height: 50px;
-	width: 40px;
+	height: 80px;
+	width: 80px;
 	background: #ffd600;
 	position: absolute;
 	clip-path: polygon(100% 0,50% 100%, 0 0);
