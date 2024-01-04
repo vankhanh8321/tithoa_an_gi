@@ -1,0 +1,256 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	min-height: 100vh;
+	background: #ff9be1;
+}
+.container{
+	height: 550px;
+	width: 550px;
+	background: ff9be1;
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 0 10px gray;
+	transition: 3s all;
+}
+.container div{
+	height: 50%;
+	width: 40px;
+	clip-path: polygon(100% 0,50% 100%, 0 0);
+	transform: translateX(-50%);
+	transform-origin: bottom;
+	position: absolute;
+	left: 46.5%;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	padding-top: 10px;
+	font-size: 20px;
+	font-family: monospace;
+	font-weight: 1000;
+	color:#008276; 
+	 writing-mode: vertical-rl;
+}
+.container .a_1{
+	background: #baf4ee;
+	left: 50%;
+}
+.container .a_2{
+	background: ff9be1;
+	transform: rotate(8deg);
+}
+.container .a_3{
+	background: #baf4ee;
+	transform: rotate(16deg);
+}
+.container .a_4{
+	background: ff9be1;
+	transform: rotate(24deg);
+}
+.container .a_5{
+	background: #baf4ee;
+	transform: rotate(32deg);
+}
+.container .a_6{
+	background: ff9be1;
+	transform: rotate(40deg);
+}
+.container .a_7{
+	background: #baf4ee;
+	transform: rotate(48deg);
+}
+.container .a_8{
+	background: ff9be1;
+	transform: rotate(56deg);
+}
+.container .a_9{
+	background: #baf4ee;
+	transform: rotate(64deg);
+}
+.container .a_10{
+	background: ff9be1;
+	transform: rotate(72deg);
+}
+.container .a_11{
+	background: #baf4ee;
+	transform: rotate(80deg);
+}
+.container .a_12{
+	background: ff9be1;
+	transform: rotate(88deg);
+}
+.container .a_13{
+	background: #baf4ee;
+	transform: rotate(96deg);
+}
+.container .a_14{
+	background: ff9be1;
+	transform: rotate(104deg);
+}
+.container .a_15{
+	background: #baf4ee;
+	transform: rotate(112deg);
+}
+.container .a_16{
+	background: ff9be1;
+	transform: rotate(120deg);
+}
+.container .a_17{
+	background: #baf4ee;
+	transform: rotate(128deg);
+}
+.container .a_18{
+	background: ff9be1;
+	transform: rotate(136deg);
+}
+.container .a_19{
+	background: #baf4ee;
+	transform: rotate(144deg);
+}
+.container .a_20{
+	background: ff9be1;
+	transform: rotate(152deg);
+}
+.container .a_21{
+	background: #baf4ee;
+	transform: rotate(160deg);
+}
+.container .a_22{
+	background: ff9be1;
+	transform: rotate(168deg);
+}
+.container .a_23{
+	background: #baf4ee;
+	transform: rotate(176deg);
+}
+.container .a_24{
+	background: ff9be1;
+	transform: rotate(184deg);
+}
+.container .a_25{
+	background: #baf4ee;
+	transform: rotate(192deg);
+}
+.container .a_26{
+	background: ff9be1;
+	transform: rotate(200deg);
+}
+.container .a_27{
+	background: #baf4ee;
+	transform: rotate(208deg);
+}
+.container .a_28{
+	background: ff9be1;
+	transform: rotate(216deg);
+}
+.container .a_29{
+	background: #baf4ee;
+	transform: rotate(224deg);
+}
+.container .a_30{
+	background: ff9be1;
+	transform: rotate(232deg);
+}
+.container .a_31{
+	background: #baf4ee;
+	transform: rotate(240deg);
+}
+.container .a_32{
+	background: ff9be1;
+	transform: rotate(248deg);
+}
+.container .a_33{
+	background: #baf4ee;
+	transform: rotate(256deg);
+}
+.container .a_34{
+	background: ff9be1;
+	transform: rotate(264deg);
+}
+.container .a_35{
+	background: #baf4ee;
+	transform: rotate(272deg);
+}
+.container .a_36{
+	background: ff9be1;
+	transform: rotate(280deg);
+}
+.container .a_37{
+	background: #baf4ee;
+	transform: rotate(288deg);
+}
+.container .a_38{
+	background: ff9be1;
+	transform: rotate(296deg);
+}
+.container .a_39{
+	background: #baf4ee;
+	transform: rotate(304deg);
+}
+.container .a_40{
+	background: ff9be1;
+	transform: rotate(312deg);
+}
+.container .a_41{
+	background: #baf4ee;
+	transform: rotate(320deg);
+}
+.container .a_42{
+	background: ff9be1;
+	transform: rotate(328deg);
+}
+.container .a_43{
+	background: #baf4ee;
+	transform: rotate(336deg);
+}
+.container .a_44{
+	background: ff9be1;
+	transform: rotate(344deg);
+}
+.container .a_45{
+	background: #baf4ee;
+	transform: rotate(352deg);
+}
+
+.mid{
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	position: absolute;
+	background: #008276;
+}
+#spin{
+	height: 60px;
+	width: 200px;
+	background: #ff5ec9;
+	position: absolute;
+	margin-top: 610px;
+	font-size: 30px;
+	color: white;
+	font-weight: 1000;
+	letter-spacing: 4px;
+	border: 1px solid white;
+	cursor: pointer;
+	box-shadow: 0 5px 10px gray;
+	transition: 0.2s all;
+}
+#spin:hover{
+	box-shadow: none;
+}
+.stoper{
+	height: 50px;
+	width: 40px;
+	background: #ffd600;
+	position: absolute;
+	clip-path: polygon(100% 0,50% 100%, 0 0);
+	margin-top: -580px;
+}
+
