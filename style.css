@@ -17,7 +17,7 @@ body{
 	background: ff9be1;
 	position: relative;
 	border-radius: 50%;
-	overflow: scroll;
+	overflow: hidden;
 	box-shadow: 0 0 10px gray;
 	transition: 3s all;
 }
